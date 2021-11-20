@@ -37,22 +37,27 @@ Dataset yang digunakan pada submission ini adalah *Stroke Prediction Dataset* (h
 ### 3.1. Data Visualization
 #### 3.1.1 Korelasi antar atribut 
 ![Alt Text](https://raw.githubusercontent.com/aprilliaazizah/picture/main/korelasi.png) 
+
 Berdasarkan gambar diatas dapat dilihat bahwa atribut *age* memiliki nilai korelasi yang cukup kuat dengan stroke dibandingkan atribut lainnya. 
 
 #### 3.1.2 Menampilkan korelasi antara penyakit Hypertension dengan penyakit Stroke
 ![Alt Text](https://raw.githubusercontent.com/aprilliaazizah/picture/main/hypertensi.png)
+
 Berdasarkan gambar diatas dapat diketahui bahwa seseorang yang memiliki penyakit Hypertension lebih rentan terkena stroke dibandingkan yang tidak.  
 
 #### 3.1.3 Melihat Korelasi antara Perokok dengan penyakit Stroke
 ![Alt Text](https://raw.githubusercontent.com/aprilliaazizah/picture/main/smoking.png)
+
 Berdasarkan gambar diatas dapat diketahui bahwa orang yang terkena stroke lebih didominasi oleh orang yang pernah merokok dari pada yang tidak.  
 
 ### 3.1.4 Melihat Korelasi antara jenis kelamin dengan penyakit Stroke
 ![Alt Text](https://raw.githubusercontent.com/aprilliaazizah/picture/main/gender.png) 
+
 Berdasarkan gambar diatas dapat diketahui bahwa orang yang terkena stroke didominasi oleh pria.  
 
 #### 3.1.5 Melihat Korelasi antara tempat tinggal dengan penyakit Stroke
 ![Alt Text](https://raw.githubusercontent.com/aprilliaazizah/picture/main/resindence.png)
+
 Berdasarkan gambar diatas dapat diketahui bahwa orang yang terkena stroke didominasi oleh orang yang tinggal di daerah perkotaan.
 
 
@@ -82,6 +87,7 @@ Pada tahapan ini, saya menggunakan metode *Confusion Matrix* untuk mengukur kine
 ![Alt Text](https://raw.githubusercontent.com/aprilliaazizah/picture/main/confusion_matrix.PNG)
 
 Hasil yang didapatkan pada penelitian ini adalah sebagai berikut.
+
 ![Classification Report Logistic Regression](https://raw.githubusercontent.com/aprilliaazizah/picture/main/hasil_cm1.PNG)
 
 ![Plot Confusion Matrix Logistic Regression](https://raw.githubusercontent.com/aprilliaazizah/picture/main/hasil_cm2.PNG)
