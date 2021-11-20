@@ -84,6 +84,7 @@ Data yang sudah dibagi kemudian di proses pada tahapan ini untuk menghasilkan se
 
 ## 6. Evaluation
 Pada tahapan ini, saya menggunakan metode *Confusion Matrix* untuk mengukur kinerja model yang sudah dibuat, dengan membandingkan dan menghitung nilai 4 kombinasi *Confusion Matrix* yaitu TP (*True Positive*), FP (*False Positive*), FN (*False Negative*), dan TN (*True Negative*) untuk menentukkan nilai:
+
 ![Alt Text](https://raw.githubusercontent.com/aprilliaazizah/picture/main/confusion_matrix.PNG)
 
 Hasil yang didapatkan pada penelitian ini adalah sebagai berikut.
