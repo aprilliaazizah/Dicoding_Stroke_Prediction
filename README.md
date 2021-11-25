@@ -9,18 +9,19 @@ Stroke merupakan penyakit gangguan fungsional otak akut lokal maupun global akib
 
 Dengan banyaknya jumlah kasus stroke ini maka dari itu diperlukan prediksi dini untuk memastikan apakah seorang pasien berpotensi stroke atau tidak. Dimana klasifikasi ini nantinya dapat digunakan sebagai prediksi dan juga penanganan dini pasien yang dapat mengurangi jumlah penderita stroke di Indonesia. 
 
-(Sailasya & Aruna Kumari, n.d.) Membuat sebuah model prediksi penyakit stroke dengan menggunakan algoritma seperti Logistic Regression, Decision Tree, Random Forest, KNN, SVM, dan Naive Bayes yang menghasilkan nilai akurasi sebesar 77.5%, 77.5%, 72%, 77.4%, 78.6%, dan 79.2%. Dimana algoritma Naive Bayes memiliki nilai akurasi terbaik jika dibandingkan dengan Algoritma lainnya (https://thesai.org/Downloads/Volume12No6/Paper_62Analyzing_the_Performance_of_Stroke_Prediction.pdf). 
+(Sailasya & Aruna Kumari, n.d.) Membuat sebuah model prediksi penyakit stroke dengan menggunakan algoritma seperti Logistic Regression, Decision Tree, Random Forest, KNN, SVM, dan Naive Bayes yang menghasilkan nilai akurasi sebesar 77.5%, 77.5%, 72%, 77.4%, 78.6%, dan 79.2%. 
+
 
 ## 2. Business Understanding 
 ### 2.1 Problem Statements 
-Bagaimana cara mengklasifikasi otomatis penyakit stroke? 
+Bagaimana cara mempercepat proses diagnosis pada pasien yang terindikasi terkena penyakit stroke? 
 ### 2.2 Goals
-Untuk mempercepat waktu diagnosis pada pasien yang terindikasi terkena penyakit stroke sehingga dapat mengurangi resiko kematian dan kecelakaan kerja akibat penyakit stroke. 
+Untuk mempercepat waktu diagnosis pada pasien yang terindikasi terkena penyakit stroke sehingga dapat mengurangi resiko kematian dan kecelakaan kerja akibat penyakit stroke dengan membuat model machine learning yang dapat melakukan klasifikasi dan prediksi dini. 
 ### 2.3 Solution Statements 
-Membuat model yang dapat melakukan klasifikasi dan prediksi dini apakah seseorang terinfeksi penyakit stroke dengan menggunakan model Machine Learning yaitu Logistic Regression. Logistic Regression merupakan bagian dari analisis regresi yang digunakan ketika variabel dependen (respon) merupakan variabel dikotomi. Variabel dikotomi terdiri dari dua nilai yang mewakili kemunculan atau tidak adanya suatu kejadian, biasanya diberi angka 0 atau 1 (Saputro & Widodo, 2014) . Model Logistic Regression merupakan model paling efektif dan efisien dalam memprediksi sesuatu, hanya saja model ini rentan terhadap *underfitting* yang jumlah kelasnya tidak seimbang (Rianto et al., 2015). 
+Denga membuat model yang dapat melakukan klasifikasi dan prediksi dini apakah seseorang terinfeksi penyakit stroke dengan menggunakan model Machine Learning yaitu Logistic Regression. Logistic Regression merupakan bagian dari analisis regresi yang digunakan ketika variabel dependen (respon) merupakan variabel dikotomi. Variabel dikotomi terdiri dari dua nilai yang mewakili kemunculan atau tidak adanya suatu kejadian, biasanya diberi angka 0 atau 1 (Saputro & Widodo, 2014) . Model Logistic Regression merupakan model paling efektif dan efisien dalam memprediksi sesuatu, hanya saja model ini rentan terhadap *underfitting* yang jumlah kelasnya tidak seimbang (Rianto et al., 2015). 
 
 ## 3. Data Understanding 
-Dataset yang digunakan pada submission ini adalah *Stroke Prediction Dataset* (https://www.kaggle.com/fedesoriano/stroke-prediction-dataset/tasks?taskId=4888). Pada dataset ini terdapat 12 *column* yang terdiri dari 5110 sample data. Variabel-variabel yang terdapat pada *Stroke Prediction Dataset* adalah sebagai berikut:
+Dataset yang digunakan pada submission ini adalah [*Stroke Prediction Dataset*](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset/tasks?taskId=4888). Pada dataset ini terdapat 12 *column* yang terdiri dari 5110 sample data. Variabel-variabel yang terdapat pada *Stroke Prediction Dataset* adalah sebagai berikut:
 - id = nomor identitas pasien. 
 - gender = jenis kelamin pasien. 
 - age = umur pasien.
